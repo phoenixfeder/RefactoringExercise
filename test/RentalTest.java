@@ -1,3 +1,5 @@
+import de.sgrotz.se.refactoring.Movie;
+import de.sgrotz.se.refactoring.Rental;
 import org.junit.jupiter.api.Test;
 
 class RentalTest {

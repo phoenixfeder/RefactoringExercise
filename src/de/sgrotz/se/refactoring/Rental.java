@@ -1,3 +1,5 @@
+package de.sgrotz.se.refactoring;
+
 class Rental {
     private Movie movie;
     private int daysRented;
