@@ -26,7 +26,7 @@ public class Customer {
 
         while (rentals.hasMoreElements()) {
             Rental each = (Rental) rentals.nextElement();
-            result += "\t" + each.getMovie().getTitle() + "\t" + "\t" + each.getDaysRented() + "\t" + each.getCharge() + "\n";
+            result += "\t" + each.getMovie().getName() + "\t" + "\t" + each.getDaysRented() + "\t" + each.getCharge() + "\n";
         }
         //add footer lines
         result += "Amount owed is " + getTotalCharge() + "\n";
