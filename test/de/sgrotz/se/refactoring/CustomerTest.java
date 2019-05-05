@@ -1,11 +1,13 @@
-import de.sgrotz.se.refactoring.Customer;
+package de.sgrotz.se.refactoring;
+
 import org.junit.jupiter.api.Test;
 
 class CustomerTest {
 
     @Test
-    void getName() {
+    public void getName() {
         Customer customer = new Customer("peter");
-        assert(customer.getName().equals("peter"));
+        assert (customer.getName().equals("peter"));
+
     }
 }

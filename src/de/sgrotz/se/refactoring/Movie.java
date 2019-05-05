@@ -7,7 +7,7 @@ public class Movie {
     private String _name;
     private Price _price;
 
-    static abstract class Price {
+    private static abstract class Price {
         abstract double getCharge(int daysRented);
 
         int getFrequentRenterPoints(int daysRented) {
@@ -15,7 +15,7 @@ public class Movie {
         }
     }
 
-    static class ChildrenPrice extends Price {
+    private static class ChildrenPrice extends Price {
 
         double getCharge(int daysRented) {
             double result = 1.5;
@@ -25,7 +25,7 @@ public class Movie {
         }
     }
 
-    static class NewReleasePrice extends Price {
+    private static class NewReleasePrice extends Price {
 
         double getCharge(int daysRented) {
             return daysRented * 3;
@@ -36,7 +36,7 @@ public class Movie {
         }
     }
 
-    static class RegularPrice extends Price {
+    private static class RegularPrice extends Price {
 
         double getCharge(int daysRented) {
             double result = 2;
