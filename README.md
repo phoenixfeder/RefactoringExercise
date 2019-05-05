@@ -3,4 +3,3 @@
 
 # Statement
 If you follow blind the Chapter 1 you will only get C with codacy. Thanks =)
-I didn't like that coding style. Nothing learned.
